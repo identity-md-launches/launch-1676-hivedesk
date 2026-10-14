@@ -1,0 +1,5 @@
+Frontend workspace: /tmp/hivedesk-frontend-aee3af6b6109
+
+> hivedesk-dashboard@1.0.0 typecheck
+> tsc --noEmit
+

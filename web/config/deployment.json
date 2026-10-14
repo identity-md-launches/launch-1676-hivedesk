@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "launchId": "86365ae5-5517-483d-874d-9bcdeed648ea",
+  "chainId": 1,
+  "repoUrl": "https://github.com/identity-md-launches/launch-1676-hivedesk",
+  "sourceCommit": "53a05f5f5a21936fa280dcfd2930b99af4aa109c",
+  "attestationHash": "5850a51c2520eb2c766134cd21caf1d9929fc870a1b4501fa5df02e33ef90265",
+  "manifest": {
+    "kind": "custom_token",
+    "token": {
+      "contract": "HiveDeskToken",
+      "name": "HiveDesk",
+      "symbol": "HVD",
+      "decimals": 18,
+      "constructorArgs": [],
+      "totalSupply": "1000000000000000000000000000"
+    },
+    "contracts": [],
+    "pool": {
+      "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+      "fee": 12500,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336"
+    },
+    "economics": {
+      "poolBps": 8000,
+      "initialMarketCapWei": "2500000000000000000000",
+      "remainderTo": "0x612a9bb008e16ef2d24f41dae9fc661831d93367"
+    },
+    "notes": "HiveDeskToken (src/HiveDeskToken.sol) is a plain fixed-supply ERC-20 built on OpenZeppelin ERC20 v5.4.0, vendored under lib/. name() returns HiveDesk, symbol() returns HVD, decimals() returns 18. The constructor takes no arguments and mints the whole supply, 1,000,000,000 HVD = 1000000000000000000000000000 minor units, once to msg.sender, which at launch is the ProjectFactory; token.totalSupply is exactly that figure. There is no owner, admin, minter, pause, blocklist, freeze, lock, seize, burnFrom, proxy, delegatecall or selfdestruct, and nothing can mint after the constructor. Transfers are untaxed and move exactly what they say, so the factory's transfer to the MerkleDistributor, the single-sided pool seed through the Uniswap v4 PoolManager, the remainder forwarded to economics.remainderTo, contributor claims and trader swaps all arrive whole. The launch deploys no application contracts, so contracts is empty; script/DeployHiveDeskToken.s.sol is a local rehearsal script only and is not part of the launch. Pool and economics are copied from the launch's terms: paired with IMD at 0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7 on Ethereum, fee 12500 (1.25%), tick spacing 60; initialPrice is provenance only, the deployer derives the opening price from economics.initialMarketCapWei and the supply."
+  },
+  "contracts": [
+    {
+      "name": "HiveDeskToken",
+      "address": "0xedebd47038e9f64f57c75eee33a50ae4a7471b47",
+      "txHash": "0x9a615393e8ebcca3cb7011b08f634fc75b97cfe15821a660df27a9a52b83b6b3",
+      "blockNumber": 26187854,
+      "creationCodeHash": "d3c17229252626be3c451fdc2a9a31f2f6dfe06afb750f6272d84d65601afffe",
+      "abiHash": "653a910baac1f277442ac4ff542927b5d40e82a40b904b1130f1fd39656d391e"
+    }
+  ],
+  "poolKey": {
+    "currency0": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "currency1": "0xedebd47038e9f64f57c75eee33a50ae4a7471b47",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "hooks": "0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000"
+  },
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions."
+}

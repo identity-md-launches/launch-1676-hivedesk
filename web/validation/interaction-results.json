@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-10-14T03:43:22.603Z",
+  "export": "/home/imd19/.identitymd/work/a9610a98-c998-4526-b656-fa3930328f1d/d2e5d8e1-ca00-4780-b9d2-2b2339ab5e20/dist",
+  "sourceBlock": "26188124",
+  "walletSimulation": "EIP-6963 provider only; real pinned accounts and live balance reads; no signing or transactions",
+  "checks": [
+    {
+      "browser": "chromium",
+      "name": "Live metadata, supply, pinned explorer link; every undeployed section has no digits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "chromium",
+      "name": "Responsive reflow at 320, 390, 768, 1024, 1440; first-screen product and action at 390",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "chromium",
+      "name": "Automated accessibility scan of loaded dashboard",
+      "passed": true,
+      "detail": "23 rules passed; no violations"
+    },
+    {
+      "browser": "chromium",
+      "name": "Hash navigation, copy success and clipboard-denied recovery",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "chromium",
+      "name": "No-extension error, modal focus trap, Escape/backdrop dismissal and focus restoration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "chromium",
+      "name": "Secondary RPC recovers from primary endpoint failure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "chromium",
+      "name": "RPC failure hides numbers, reports error; retry restores actual data",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "chromium",
+      "name": "Reduced motion and 200% CSS text enlargement reflow",
+      "passed": true,
+      "detail": "CSS text enlargement, not browser-native zoom"
+    },
+    {
+      "browser": "chromium",
+      "name": "No page exceptions or missing local resources",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "chromium",
+      "name": "Phone bottom sheet, four correct deep links, Coinbase Smart Wallet, 48px rows, accessible dialog",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "chromium",
+      "name": "EIP-6963 discovery, rejection, pending and successful balance read for pinned recipient",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "chromium",
+      "name": "Account change fetches the new account balance; no stale previous position",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "chromium",
+      "name": "Balance read failure hides previous amount; retry fetches the actual balance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "chromium",
+      "name": "Wrong chain and rejected switch hide balance; retry with unknown-chain fallback uses pinned network parameters",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "chromium",
+      "name": "Reload reconnects; disconnect clears position; no wallet signing or transaction method invoked",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "webkit",
+      "name": "Live metadata, supply, pinned explorer link; every undeployed section has no digits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "webkit",
+      "name": "Responsive reflow at 320, 390, 768, 1024, 1440; first-screen product and action at 390",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "webkit",
+      "name": "Automated accessibility scan of loaded dashboard",
+      "passed": true,
+      "detail": "23 rules passed; no violations"
+    },
+    {
+      "browser": "webkit",
+      "name": "Hash navigation, copy success and clipboard-denied recovery",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "webkit",
+      "name": "No-extension error, modal focus trap, Escape/backdrop dismissal and focus restoration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "webkit",
+      "name": "Secondary RPC recovers from primary endpoint failure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "webkit",
+      "name": "RPC failure hides numbers, reports error; retry restores actual data",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "webkit",
+      "name": "Reduced motion and 200% CSS text enlargement reflow",
+      "passed": true,
+      "detail": "CSS text enlargement, not browser-native zoom"
+    },
+    {
+      "browser": "webkit",
+      "name": "No page exceptions or missing local resources",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "webkit",
+      "name": "Phone bottom sheet, four correct deep links, Coinbase Smart Wallet, 48px rows, accessible dialog",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "webkit",
+      "name": "EIP-6963 discovery, rejection, pending and successful balance read for pinned recipient",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "webkit",
+      "name": "Account change fetches the new account balance; no stale previous position",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "webkit",
+      "name": "Balance read failure hides previous amount; retry fetches the actual balance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "webkit",
+      "name": "Wrong chain and rejected switch hide balance; retry with unknown-chain fallback uses pinned network parameters",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "browser": "webkit",
+      "name": "Reload reconnects; disconnect clears position; no wallet signing or transaction method invoked",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "limitations": [
+    "No physical phone or installed wallet extension was used.",
+    "Coinbase passkey authorization and native wallet deep-link handoff were not completed.",
+    "Automated accessibility checks do not replace a screen-reader session."
+  ],
+  "status": "passed"
+}

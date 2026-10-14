@@ -1,0 +1,30 @@
+Frontend workspace: /tmp/hivedesk-frontend-aee3af6b6109
+
+> hivedesk-dashboard@1.0.0 build
+> npm run validate:config && vite build
+
+
+> hivedesk-dashboard@1.0.0 validate:config
+> node scripts/validate-config.mjs
+
+Config valid. HiveDeskToken canonical ABI keccak256: 653a910baac1f277442ac4ff542927b5d40e82a40b904b1130f1fd39656d391e
+Token address: 0xedebd47038e9f64f57c75eee33a50ae4a7471b47. Application contracts remain awaiting verified integration.
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 1799 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                             1.41 kB │ gzip:   0.60 kB
+../dist/assets/dm-sans-latin-Xz1IZZA0.woff2   36.93 kB
+../dist/assets/index-4mCsls-q.css             16.91 kB │ gzip:   3.96 kB
+../dist/assets/ccip-BLky2fAj.js                2.84 kB │ gzip:   1.31 kB
+../dist/assets/dist-5ufqjL_G.js               98.96 kB │ gzip:  31.97 kB
+../dist/assets/index-C2H_G0Jw.js             582.27 kB │ gzip: 175.48 kB
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 464ms
+Production export written to dist/.

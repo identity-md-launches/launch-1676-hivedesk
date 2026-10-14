@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "budgetBytes": 8388608,
+  "candidateFileCountExcludingAudit": 118,
+  "candidateBytesExcludingAudit": 3390495,
+  "historicalPackKiB": 112,
+  "overheadAllowanceBytes": 1048576,
+  "conservativeBudgetBytes": 4553759,
+  "budgetBasis": "All candidate file payloads plus existing Git pack size and 1 MiB for Git/audit overhead. No Git index or commit was changed.",
+  "protectedTrackedFiles": "unchanged",
+  "dependencyCaches": "absent from candidate files",
+  "submodulesAndSymlinks": "none",
+  "ignoreFiles": "unchanged",
+  "applicationSourceSha256": "74d2dc877a1987fefd542bff959db8a22d75f384e96bafd04b70b279cfad3693",
+  "exportBytes": 840217,
+  "exportFiles": [
+    {
+      "path": "dist/assets/ccip-BLky2fAj.js",
+      "bytes": 2840,
+      "sha256": "dc4a593a1dbcb5c889b825f7cc17b2dee1eef5877c899c8073a1474d8a2fa637"
+    },
+    {
+      "path": "dist/assets/dist-5ufqjL_G.js",
+      "bytes": 98964,
+      "sha256": "c599ef90bef2e78399cdf792cdab59bbe74f10855eabf63c3ffda424a3eb7879"
+    },
+    {
+      "path": "dist/assets/dm-sans-latin-Xz1IZZA0.woff2",
+      "bytes": 36932,
+      "sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543"
+    },
+    {
+      "path": "dist/assets/index-4mCsls-q.css",
+      "bytes": 16913,
+      "sha256": "78903f514f1a1ad48c2aaf5d5b7859319df1f8a21236722450a072f69081290d"
+    },
+    {
+      "path": "dist/assets/index-C2H_G0Jw.js",
+      "bytes": 582279,
+      "sha256": "573030f6e7e4f1349ef94b89ead2025d17e38697aae9d975aef4f56e132005a6"
+    },
+    {
+      "path": "dist/favicon.svg",
+      "bytes": 295,
+      "sha256": "b138f7f0014fc0797533d8a5e85b9e6ffd87af135cbf07be8f12c48e7e4e3725"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 1416,
+      "sha256": "da2824ee70f05a41e7b638e8fdca4ff1b302ce49ec72bc203257a1a573d93853"
+    },
+    {
+      "path": "dist/share.png",
+      "bytes": 37237,
+      "sha256": "a79c1bbf6a0f51eba67248abfb34b431ce1370960a561d969a8792c413dbadb3"
+    },
+    {
+      "path": "dist/third-party-notices.txt",
+      "bytes": 57990,
+      "sha256": "2c1405f66856197be269e0339bb5882648ce6d3bf9800a1f951cb87707cb2bca"
+    },
+    {
+      "path": "dist/wallets/coinbase.svg",
+      "bytes": 535,
+      "sha256": "a82c3b4f6715cbca630040e8b51436c5dfefba524a5cab128270d5e99164a33d"
+    },
+    {
+      "path": "dist/wallets/metamask.svg",
+      "bytes": 1665,
+      "sha256": "892c7dfab8c4ca5682878dda3f42f55a75195d7d365e4adb0832845f3a0a2135"
+    },
+    {
+      "path": "dist/wallets/phantom.svg",
+      "bytes": 861,
+      "sha256": "f841f8112e131259a2e5123177950099c79487e61e77971f4e193e6c374419eb"
+    },
+    {
+      "path": "dist/wallets/rabby.svg",
+      "bytes": 2290,
+      "sha256": "dcae4de88ebfa10cffa1fe28df13d7c8c0b40736ef2b704f1f2fc348e777e443"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+Frontend workspace: /tmp/hivedesk-frontend-aee3af6b6109
+
+> hivedesk-dashboard@1.0.0 check:live
+> node scripts/check-live.mjs
+
+Config valid. HiveDeskToken canonical ABI keccak256: 653a910baac1f277442ac4ff542927b5d40e82a40b904b1130f1fd39656d391e
+Token address: 0xedebd47038e9f64f57c75eee33a50ae4a7471b47. Application contracts remain awaiting verified integration.
+{
+  "rpc": "https://ethereum-rpc.publicnode.com",
+  "chainId": 1,
+  "blockNumber": "26188074",
+  "codeHash": "0xd71bbeee0d13450a38a323a7d2a13b18a590ac73440d86777293145e39ffd45c",
+  "name": "HiveDesk",
+  "symbol": "HVD",
+  "decimals": 18,
+  "totalSupply": "1000000000"
+}
+{
+  "rpc": "https://eth.drpc.org",
+  "chainId": 1,
+  "blockNumber": "26188074",
+  "codeHash": "0xd71bbeee0d13450a38a323a7d2a13b18a590ac73440d86777293145e39ffd45c",
+  "name": "HiveDesk",
+  "symbol": "HVD",
+  "decimals": 18,
+  "totalSupply": "1000000000"
+}
